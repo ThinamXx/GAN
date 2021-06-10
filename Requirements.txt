@@ -1,0 +1,3 @@
+d2l
+torch
+warnings
