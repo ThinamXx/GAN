@@ -1,4 +1,4 @@
-# **DEEP CONVOLUTIONAL GENERATIVE ADVERSARIAL NETWORKS**
+### **DEEP CONVOLUTIONAL GENERATIVE ADVERSARIAL NETWORKS**
 
 **Generative Adversarial Networks**
 - Generative Adversarial Networks consist of two deep networks Generator and Discriminator. The Generator generates the image as much closer to the true image as possible to fool Discriminator by maximizing the cross entropy loss. The Discriminator tries to distinguish the generated images from the true images by minimizing the cross entropy loss.
