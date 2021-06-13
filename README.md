@@ -29,4 +29,8 @@ from torch import nn
 
 ![Image](https://github.com/ThinamXx/300Days__MachineLearningDeepLearning/blob/main/Images/Day%20189.PNG)
 
+**Training**
+- I will be using the same learning rate for both generator and discriminator since the networks are similar to each other. I will change β1 in Adam from 0.9 to 0.5. It decreases the smoothness of the momentum which is the exponentially weighted moving average of past gradients to take care of the rapid changing gradients because the generator and the discriminator fight with each other. The random generated noise Z is a 4D tensor. I have presented the implementation of Training Generator and Discriminator Networks using PyTorch here in the snapshots. 
 
+![Image](https://github.com/ThinamXx/300Days__MachineLearningDeepLearning/blob/main/Images/Day%20190a.PNG)
+![Image](https://github.com/ThinamXx/300Days__MachineLearningDeepLearning/blob/main/Images/Day%20190b.PNG)
